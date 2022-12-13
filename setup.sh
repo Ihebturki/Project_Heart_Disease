@@ -16,4 +16,4 @@ backgroundColor="#ffffff"
 secondaryBackgroundColor="#e8eef9"
 textColor="#000000"
 font="sans serif"
- > ~/.streamlit/config.toml
+" > ~/.streamlit/config.toml
