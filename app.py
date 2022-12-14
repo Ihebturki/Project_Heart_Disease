@@ -10,6 +10,9 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from streamlit_option_menu import option_menu
+import plotly.express as px  # pip install plotly-express
+import base64  # Standard Python Module
+from io import StringIO, BytesIO  # Standard Python Module
 
 
 # loading the saved model
