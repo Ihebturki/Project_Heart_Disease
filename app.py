@@ -100,8 +100,8 @@ if (selected == 'Heart Disease Prediction'):
     
     df = pd.read_csv('heart_disease_data.csv')
     
-def data_summary():
-    st.header('tail')
+def data_tail():
+    st.header('Tail of Dataframe')
     st.write(df.tail())
 
 def data_header():
@@ -113,7 +113,7 @@ st.sidebar.title('Navigation')
 options = st.sidebar.radio('Select what you want to display:', ['Head', 'Tail'])
     
 if options == 'Tail':
-    data_summary()
+    data_tail()
 elif options == 'Head':
     data_header()
     
