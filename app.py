@@ -113,9 +113,9 @@ def displayplot():
     st.header('Plot of Data')
     
     fig, ax = plt.subplots(1,1)
-    ax.scatter(x=df['age'], y=df['fbs'])
+    ax.scatter(x=df['age'], y=df['thalach'])
     ax.set_xlabel('age')
-    ax.set_ylabel('fbs')
+    ax.set_ylabel('thalach')
     
     st.pyplot(fig)    
     
