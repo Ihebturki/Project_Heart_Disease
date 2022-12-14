@@ -95,6 +95,13 @@ if (selected == 'Heart Disease Prediction'):
           heart_diagnosis = 'The person does not have any heart disease'
         
     st.success(heart_diagnosis)
+    
+    
+    df = pd.read_csv(heart_disease_data.csv)
+
+    # Create a section for the dataframe statistics
+    st.header('Statistics of Dataframe')
+    st.write(df.describe())
         
     
     
