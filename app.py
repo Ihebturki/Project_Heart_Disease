@@ -13,15 +13,6 @@ import plotly.express as px
 from streamlit_option_menu import option_menu
 
 
-
-
-
-    [theme]
-    primaryColor = "#d33682"
-    backgroundColor = "#002b36"
-    secondaryBackgroundColor = "#586e75"
-    textColor = "#fafafa"
-    font = "sans serif"
   
 
 # loading the saved model
