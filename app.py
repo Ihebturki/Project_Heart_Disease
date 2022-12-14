@@ -110,12 +110,12 @@ def data_header():
     st.write(df.head())
     
 def displayplot():
-    st.header('Plot of Data according to gender')
+    st.header('Plot of Data')
     
     fig, ax = plt.subplots(1,1)
-    ax.scatter(x=df['age'], y=df['cp'])
+    ax.scatter(x=df['age'], y=df['fbs'])
     ax.set_xlabel('age')
-    ax.set_ylabel('cp')
+    ax.set_ylabel('fbs')
     
     st.pyplot(fig)    
     
