@@ -113,9 +113,9 @@ def displayplot():
     st.header('Plot of Data according to gender')
     
     fig, ax = plt.subplots(1,1)
-    ax.scatter(x=df['age'], y=df['trestbps'])
+    ax.scatter(x=df['age'], y=df['cp'])
     ax.set_xlabel('age')
-    ax.set_ylabel('trestbps')
+    ax.set_ylabel('cp')
     
     st.pyplot(fig)    
     
