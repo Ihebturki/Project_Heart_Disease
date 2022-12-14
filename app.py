@@ -13,6 +13,15 @@ import plotly.express as px
 from streamlit_option_menu import option_menu
 
 <style>
+[data-testid="stAppViewContainer"] > .main {{
+background-image: url("https://images.unsplash.com/photo-1501426026826-31c667bdf23d");
+background-size: 180%;
+background-position: top left;
+background-repeat: no-repeat;
+background-attachment: local;
+}}
+
+<style>
  primaryColor = "#d33682"
  backgroundColor = "#002b36"
  secondaryBackgroundColor = "#586e75"
