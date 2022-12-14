@@ -145,13 +145,13 @@ df_grouped = df.groupby(by=[groupby_column], as_index=False)[output_columns].sum
 fig = px.bar(
       df_grouped,
       x=groupby_column,
-      y='sumcp',
-      color='sumfbs',
+      y='cp',
+      color='fbs',
       color_continuous_scale=['red', 'yellow', 'green'],
       template='plotly_white',
-      title=f'<b>Sales & Profit by {groupby_column}</b>'
+      title=f'<b>cp & fbs by {groupby_column}</b>'
 )
-st.plotly_chart(fig)
+      st.plotly_chart(fig)
 
  
 
