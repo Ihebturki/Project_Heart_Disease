@@ -14,8 +14,7 @@ from streamlit_option_menu import option_menu
 
 page_bg_img = f"""
 <style>
-[data-testid="stAppViewContainer"] > .main {{
-background-image: url("C:\Users\ihebt\Downloads\istockphoto-1206001151-612x612.jpg");
+.main {{
 background-size: 180%;
 background-position: top left;
 background-repeat: no-repeat;
