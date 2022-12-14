@@ -8,6 +8,7 @@ Created on Sun May  8 21:01:15 2022
 import pickle
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
 from streamlit_option_menu import option_menu
 
 
@@ -108,15 +109,26 @@ def data_header():
     st.header('Header of Dataframe')
     st.write(df.head())
     
+def displayplot():
+    st.header('Plot of Data according to gender')
+    
+    fig, ax = plt.subplots(1,1)
+    ax.scatter(x=df['sex'], y=df['target'])
+    ax.set_xlabel('sex')
+    ax.set_ylabel('target')
+    
+    st.pyplot(fig)    
+    
     #Sidebar navigation
 st.sidebar.title('Navigation')
-options = st.sidebar.radio('Select what you want to display:', ['Head', 'Tail'])
+options = st.sidebar.radio('Select what you want to display:', ['Head', 'Tail', 'Scatter Plot'])
     
 if options == 'Tail':
     data_tail()
 elif options == 'Head':
     data_header()
-    
+elif options == 'Scatter Plot':
+    displayplot()    
     
 
 
