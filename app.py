@@ -14,7 +14,7 @@ from streamlit_option_menu import option_menu
 
 page_bg_img = f"""
 <style>
-.main {{
+{{
 background-size: 180%;
 background-position: top left;
 background-repeat: no-repeat;
