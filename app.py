@@ -97,7 +97,7 @@ if (selected == 'Heart Disease Prediction'):
     st.success(heart_diagnosis)
     
     
-    df = pd.read_csv(heart_disease_data.csv)
+    df = pd.read_csv('heart_disease_data.csv')
 
     # Create a section for the dataframe statistics
     st.header('Statistics of Dataframe')
