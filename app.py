@@ -114,8 +114,8 @@ def displayplot():
     
     fig, ax = plt.subplots(1,1)
     ax.scatter(x=df['age'], y=df['thalach'])
-    ax.set_xlabel('age')
-    ax.set_ylabel('thalach')
+    ax.set_xlabel('Age')
+    ax.set_ylabel('Maximum Heart Rate achieved')
     
     st.pyplot(fig)    
     
