@@ -12,22 +12,22 @@ import matplotlib.pyplot as plt
 import plotly.express as px 
 from streamlit_option_menu import option_menu
 
+page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://images.unsplash.com/photo-1501426026826-31c667bdf23d");
+background-image: url("C:\Users\ihebt\Downloads\istockphoto-1206001151-612x612.jpg");
 background-size: 180%;
 background-position: top left;
 background-repeat: no-repeat;
 background-attachment: local;
+primaryColor = "#d33682"
+backgroundColor = "#002b36"
+secondaryBackgroundColor = "#586e75"
+textColor = "#fafafa"
+font = "sans serif"
 }}
-
-<style>
- primaryColor = "#d33682"
- backgroundColor = "#002b36"
- secondaryBackgroundColor = "#586e75"
- textColor = "#fafafa"
- font = "sans serif"
 </style>
+"""
   
 
 # loading the saved model
