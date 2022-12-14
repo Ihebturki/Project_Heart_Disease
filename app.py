@@ -104,6 +104,22 @@ if (selected == 'Heart Disease Prediction'):
     st.header('Statistics of Dataframe')
     st.write(df.head())
     
+def data_summary():
+    st.header('Statistics of Dataframe')
+    st.write(df.tail())
+
+def data_header():
+    st.header('Header of Dataframe')
+    st.write(df.head())
+    
+    #Sidebar navigation
+st.sidebar.title('Navigation')
+options = st.sidebar.radio('Select what you want to display:', ['Head', 'Tail'])
+    
+if options == 'Tail':
+    data_summary()
+elif options == 'Head':
+    data_header()
     
     
 
