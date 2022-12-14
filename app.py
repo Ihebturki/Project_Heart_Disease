@@ -117,8 +117,7 @@ if (selected == 'Heart Disease Prediction'):
     
     
     df = pd.read_csv('heart_disease_data.csv')
-    st.dataframe(df, width=250)
-    st.dataframe(df, height=150)
+
     
 def data_tail():
     st.header('Tail of Dataframe')
