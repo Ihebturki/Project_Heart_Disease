@@ -13,7 +13,7 @@ import plotly.express as px
 from streamlit_option_menu import option_menu
 
 
-st.markdown(""" <style> .font {
+""" <style> .font {
 font-size:50px ; font-family: 'Cooper Black'; color: #FF9633;} 
 </style> """
             
