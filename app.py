@@ -136,6 +136,22 @@ groupby_column = st.selectbox(
         ('age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg','thalach','exang','oldpeak','slope','ca','thal'),
 )
 
+# -- GROUP DATAFRAME
+    output_columns = ['cp', 'fbs']
+    df_grouped = df.groupby(by=[groupby_column], as_index=False)[output_columns].sum()
+
+    # -- PLOT DATAFRAME
+    fig = px.bar(
+        df_grouped,
+        x=groupby_column,
+        y='cp',
+        color='fbs',
+        color_continuous_scale=['red', 'yellow', 'green'],
+        template='plotly_white',
+        title=f'<b>Sales & Profit by {groupby_column}</b>'
+    )
+    st.plotly_chart(fig)
+
  
 
 
