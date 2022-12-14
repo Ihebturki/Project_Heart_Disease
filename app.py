@@ -99,13 +99,9 @@ if (selected == 'Heart Disease Prediction'):
     
     
     df = pd.read_csv('heart_disease_data.csv')
-
-    # Create a section for the dataframe statistics
-    st.header('Statistics of Dataframe')
-    st.write(df.head())
     
 def data_summary():
-    st.header('Statistics of Dataframe')
+    st.header('tail')
     st.write(df.tail())
 
 def data_header():
