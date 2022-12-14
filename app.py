@@ -13,16 +13,16 @@ import plotly.express as px
 from streamlit_option_menu import option_menu
 
 
-"""
+page_bg_img = f"""
 <style>
-{
+{{
 primaryColor = "#d33682"
 backgroundColor = "#002b36"
 secondaryBackgroundColor = "#586e75"
 textColor = "#FF9633"
 font-family = "Cooper Black"
 font-size:50px
-}
+}}
 </style>
 """
 
