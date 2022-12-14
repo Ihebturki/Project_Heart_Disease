@@ -102,8 +102,8 @@ if (selected == 'Heart Disease Prediction'):
 
     # Create a section for the dataframe statistics
     st.header('Statistics of Dataframe')
-    st.write(df.describe())
-        
+    st.write(df.head())
+    
     
     
 
