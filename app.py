@@ -21,9 +21,9 @@ heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 # sidebar for navigation
 with st.sidebar:
     
-    selected = option_menu('Heart Disease Prediction System',
+    selected = option_menu(
                           
-                          
+                         
                            ['Heart Disease Prediction'],
                           icons=['heart'],
                           default_index=0)
