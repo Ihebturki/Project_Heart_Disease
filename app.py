@@ -14,6 +14,17 @@ from streamlit_option_menu import option_menu
 
 
 
+
+```python
+    [theme]
+    primaryColor = "#d33682"
+    backgroundColor = "#002b36"
+    secondaryBackgroundColor = "#586e75"
+    textColor = "#fafafa"
+    font = "sans serif"
+    ```
+    """
+
 # loading the saved model
 
 
