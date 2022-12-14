@@ -15,15 +15,11 @@ from streamlit_option_menu import option_menu
 page_bg_img = f"""
 <style>
 {{
-background-size: 180%;
-background-position: top left;
-background-repeat: no-repeat;
-background-attachment: local;
 primaryColor = "#d33682"
 backgroundColor = "#002b36"
 secondaryBackgroundColor = "#586e75"
 textColor = "red"
-font = "monospace"
+font-family = "monospace"
 }}
 </style>
 """
