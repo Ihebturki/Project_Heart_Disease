@@ -149,7 +149,7 @@ fig = px.bar(
       color='fbs',
       color_continuous_scale=['red', 'yellow', 'green'],
       template='plotly_white',
-      title=f'<b>cp & fbs by {groupby_column}</b>'
+      title=f'<b>Chest Pain types & Fasting Blood Sugar by {groupby_column}</b>'
 )
 st.plotly_chart(fig)
 
