@@ -10,9 +10,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from streamlit_option_menu import option_menu
-import plotly.express as px  # pip install plotly-express
-import base64  # Standard Python Module
-from io import StringIO, BytesIO  # Standard Python Module
+
 
 
 # loading the saved model
@@ -136,7 +134,7 @@ elif options == 'Scatter Plot':
      groupby_column = st.selectbox(
         'What would you like to analyse?',
         ('age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg','thalach','exang','oldpeak','slope','ca','thal','target'),
-    )
+     )
 
  
 
