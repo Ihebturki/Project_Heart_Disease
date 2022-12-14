@@ -130,6 +130,12 @@ elif options == 'Head':
 elif options == 'Scatter Plot':
     displayplot()    
     
+     groupby_column = st.selectbox(
+        'What would you like to analyse?',
+        ('age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg','thalach','exang','oldpeak','slope','ca','thal','target'),
+    )
+
+ 
 
 
     
