@@ -12,19 +12,12 @@ import matplotlib.pyplot as plt
 import plotly.express as px 
 from streamlit_option_menu import option_menu
 
-page_bg_img = f"""
-<style>
-{{
-primaryColor = "#d33682"
-backgroundColor = "#002b36"
-secondaryBackgroundColor = "#586e75"
-textColor = "red"
-font-family = "monospace"
-}}
-</style>
-"""
-  
 
+st.markdown(""" <style> .font {
+font-size:50px ; font-family: 'Cooper Black'; color: #FF9633;} 
+</style> """
+            
+  
 # loading the saved model
 
 
