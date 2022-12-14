@@ -13,7 +13,7 @@ from streamlit_option_menu import option_menu
 # loading the saved model
 
 
-heart_disease_model = pickle.load(open('heart_disease_model.csv', 'rb'))
+heart_disease_model = pickle.load(open('heart_disease_data.csv', 'rb'))
 
 
 
