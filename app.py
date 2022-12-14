@@ -12,7 +12,13 @@ import matplotlib.pyplot as plt
 import plotly.express as px 
 from streamlit_option_menu import option_menu
 
-
+<style>
+ primaryColor = "#d33682"
+ backgroundColor = "#002b36"
+ secondaryBackgroundColor = "#586e75"
+ textColor = "#fafafa"
+ font = "sans serif"
+</style>
   
 
 # loading the saved model
