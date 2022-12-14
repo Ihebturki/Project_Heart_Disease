@@ -137,7 +137,7 @@ groupby_column = st.selectbox(
 )
 
 # -- GROUP DATAFRAME
-output_columns = ['sumcp', 'sumfbs']
+output_columns = ['cp', 'fbs']
 df_grouped = df.groupby(by=[groupby_column], as_index=False)[output_columns].sum()
 
 # -- PLOT DATAFRAME
