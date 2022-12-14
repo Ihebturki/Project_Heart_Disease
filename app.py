@@ -151,7 +151,7 @@ fig = px.bar(
       template='plotly_white',
       title=f'<b>cp & fbs by {groupby_column}</b>'
 )
-      st.plotly_chart(fig)
+st.plotly_chart(fig)
 
  
 
